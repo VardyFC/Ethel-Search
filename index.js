@@ -28,3 +28,4 @@ app.use('/', function (req, res) {
 app.listen(process.env.PORT || port, () => {
   console.log(`Deploy is running at localhost:${port}`)
 })
+
